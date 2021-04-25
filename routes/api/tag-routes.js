@@ -17,13 +17,22 @@ router.get("/", async (req, res) => {
 
 // find a single tag by its `id`
 router.get("/:id", (req, res) => {
-
+  try {
+    const tagData = Tag.findByPk(req.params.id, {
+      include: { model: Product },
+    });
+    if (!tagData) {
+      res.status(404).json({ message: "Tag ID not found!" });
+      return;
+    }
+    res.status(200).json(tagData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 // create a new tag
-router.post("/", async (req, res) => {
-
-});
+router.post("/", async (req, res) => {});
 
 // update a tag's name by its `id` value
 router.put("/:id", (req, res) => {});
