@@ -53,7 +53,7 @@ Here's an example for updating the "Running Shoes" item in the "Products" table:
 In this case, we are updating the Product's Name, Price, How many are in Stock, and which Tags the item is associated with.
 
 ### Demonstration Video
-### [Please refer to this video for a full demonstration!]()
+### [Please refer to this video for a full demonstration!](https://youtu.be/o3Wo9D6LIoQ)
 
 ### Contribution and Contact
 If you have any feedback or suggestions, feel free to [E-mail me!](mailto:hernandez.briant@gmail.com)
