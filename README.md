@@ -10,7 +10,7 @@ This app honors the CRUD system, meaning that you will be able to Create, Read, 
 ## Getting Started
 
 This app uses `MYSQL2` and `Sequelize` packages with `npm` to create, seed, and manage the database and items, so you'll need to install all the packages. Additionally, the app will use the `dotenv` package to provide a dynamic port for accessing the database, and allowing you to share this code with others without revealing your mysql credentials.
-The dependencies are already defined in the incluced `package.json`, so all you need to do to get all the packages set up, is open up your terminal and run:
+The dependencies are already defined in the included `package.json`, so all you need to do to get all the packages set up, is open up your terminal and run:
 
 ```npm install```
 
